@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <WorldObjectDef Name="OutpostBase" Abstract="True">
+        <useDynamicDrawer>false</useDynamicDrawer>
+        <expandingIcon>true</expandingIcon>
+        <expandingIconPriority>100</expandingIconPriority>
+        <expandMore>false</expandMore>
+        <worldObjectClass>ImperialAmbitions.Core.Planet.Outpost</worldObjectClass>
+        <texture>World/WorldObjects/Sites/Outpost</texture>
+        <inspectorTabs>
+            <li>ImperialAmbitions.Core.WITab.OutpostItems</li>
+            <li>ImperialAmbitions.Core.WITab.OutpostGear</li>
+            <li>ImperialAmbitions.Core.WITab.OutpostHealth</li>
+            <li>ImperialAmbitions.Core.WITab.OutpostNeeds</li>
+        </inspectorTabs>
+    </WorldObjectDef>
+</Defs>
